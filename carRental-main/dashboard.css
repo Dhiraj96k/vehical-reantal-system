@@ -1,0 +1,87 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: whitesmoke;
+    padding: 15px;
+}
+
+main{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main1 {
+    padding: 15px;
+    /* min-height: 30px; */
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.main2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D5DBDB;
+    justify-content: space-around;
+    padding: 20px;
+    height: 400px; /* Set the height of .main2 to 400px */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds the height */
+}
+
+.hover {
+    width: calc(25% - 40px);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid rgb(220, 60, 60);
+    border-radius: 0px 15px;
+    transition: all ease-in 200ms;
+}
+
+.hover:hover {
+    margin-top: 10px;
+    text-decoration: dashed;
+    border-bottom: 5px solid rgb(155, 19, 19);
+}
+
+.card {
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: #34495E ; /* Add background color */
+    border-radius: 15px; /* Add border radius */
+}
+
+.card a {
+    text-decoration: none;
+    transition: all 1s ease-in;
+    font-size: 25px;
+    color: white;
+}
+.scrool{
+    height: 60px;
+    border: 1px solid;
+}
+
+
+.signout button{
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    border: 0px;
+
+}
+
+.signout button a {
+    text-decoration: none;
+    color: black;
+}

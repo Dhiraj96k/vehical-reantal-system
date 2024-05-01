@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_tag {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding: 35px;
+}
+
+
+.div_tag1>.veh_about {
+    font-size: 35px;
+    padding-left: 25px;
+}
+
+.div_tag1>.veh_desc {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.main_tag>.div_tag1 {
+    /* justify-content: flex-start; */
+}
+
+.div_tag1>img {
+  height: 290px;
+  width: 340px;
+  /* padding: 25px; */
+  object-fit: contain;
+}
+
+.div_tag1>.veh_desc {
+    width: 300px;
+    height: 100px;
+}
+
+/* 2nd div tag */
+
+.div_tag2 {
+    /* display:inline-block; */
+}
+
+.infoclass{
+    display: flex;
+    /* align-items:  center; */
+    justify-content: space-between;
+}
+.backbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.backbutton a{
+    background-color: #FCDC2A;
+    color: black;
+    text-decoration: none;
+    padding:12px;
+    border-radius: 19px;
+    font-weight: 700;
+}
+
+.Image {
+    display: flex;
+}
+
+.Image a {
+    text-decoration: none;
+    color: black;
+}
+
+.Image img {
+    height: 179px;
+    width: 198px;
+    margin: 8px;
+  
+}
+
+.Image h4,
+p {
+    padding: 10px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(54, 89, 159);
+    border: 3px solid rgb(54, 89, 159);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.veh_inf p {
+    margin-top: 9px;
+    font-size: 45px;
+    padding-bottom: 0px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.veh_inf h3 {
+    margin: 12px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.you_like {
+    margin-top: 50px;
+    font-size: 30px;
+}

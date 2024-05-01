@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <form class="feedback_form" action="feedback.php" method="POST">
+        <main class="main_form">
+            <h2 id="form-title">Feedback Form</h2>
+            <div class="form-fed">
+                <label for="cust_name">Customer Name</label>
+                <input type="text" id="cust_name" name="c_name">
+            </div>
+            <div class="form-fed">
+                <label for="feedback">Customer Feedback</label>
+                <textarea name="c_back" id="feedback" cols="30" rows="5"></textarea>
+            </div>
+            <input type="submit" value="submit" class="button-submit" name="fsubmit">
+        </main>
+    </form>
+
+</body>
+
+</html>

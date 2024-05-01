@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car insert pages</title>
+    <link rel="stylesheet" href="insertform.css">
+</head>
+
+<body>
+    <form class="ins-form" action="showInsert.php" method="post" enctype="multipart/form-data">
+        <main class="main-form">
+            <h2 class="form-title">car insert</h2>
+            <div class="crimg car-inp">
+                <label for="img">Car Image</label>
+                <input type="file" name="carimg" id="img">
+            </div>
+            <div class="crname car-inp">
+                <label for="name">Car name</label>
+                <input type="text" name="carname" id="name">
+            </div>
+
+            <div class="crdesc car-inp">
+                <label for="disc">Car Description</label>
+                <textarea name="cardes" id="disc" cols="30" rows="5"></textarea>
+            </div>
+
+            <div class="crprice car-inp">
+                <label for="price">Rent Price</label>
+                <input type="number" name="carprice" id="price">
+            </div>
+
+            <div class="crtype">
+                <label for="type">Car Type</label>
+                <div class="types">
+                    <label for="type1" class="type-label radio-active">
+                        car
+                        <input type="radio" name="cartype" id="type1" value="car" class="radio-car-type" checked>
+                    </label>
+                    <label for="type2" class="type-label">
+                        bike
+                        <input type="radio" name="cartype" id="type2" value="bike" class="radio-car-type ">
+                    </label>
+                </div>
+            </div>
+
+            <input type="submit" value="submit" class="button-submit" name="carsubmit">
+
+        </main>
+    </form>
+</body>
+
+</html>
